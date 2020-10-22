@@ -1,3 +1,37 @@
+// .flex {
+//     display: flex
+// }
 .flex {
-    word-wrap: break-word;
+    display: flex;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// .btn {
+//     display: flex;
+//     // white-space: nowrap;
+//     width: 5%;
+//     // margin-right: 20px;
+//     // flex: 0 0 50%;
+//     /** required to make sure that elements take 50% width no matter whether they can grow or shrink.*/
+//     // width: 10px;
+//     /** we are telling elements to size themselves */
+//     // box-sizing: border-box;
+// }
+// div {
+//     display: flex;
+//     word-break: break-all;
+// }
+// .btn {
+//     padding-right: 10px;
+//     position: relative;
+//     // width: fit-content;
+//     // height: fit-content;
+// }
+a {
+    // display: flex;
+    // padding-right: 20px;
+    min-width: fit-content;
+    min-height: fit-content;
 }
